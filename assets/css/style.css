@@ -1,0 +1,122 @@
+.mainHead {
+  display: flex;
+  padding: 10px;
+  background-image: linear-gradient(to left, rgb(180, 180, 197) , darkblue);
+  color: #fff;
+  justify-content: center;
+}
+.mainHead h1 {
+  font-size: 250%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Name {
+  text-align-last: center;
+  background-color: rgb(64, 68, 108);
+  color: white;
+  padding: 1%;
+}
+#graph {
+  display: none;
+  border: 5px solid black;
+  margin: 2% 20%;
+  text-align-last: center;
+}
+#news {
+  display: none;
+  text-align: -webkit-center;
+  border: 5px solid black;
+  margin: 0 20%;
+}
+#submit {
+  font-size: 15px;
+  font-family: Arial;
+  width: 100px;
+  height: 27px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #d02718;
+  font-weight: bold;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 3px 4px 0px 0px rgba(46, 58, 141, 1);
+  text-shadow: 0px 1px 0px rgba(62, 75, 202, 1);
+  background: linear-gradient(#c62d1f, rgba(55, 65, 242, 1));
+}
+#date{
+  margin-left: 19px;
+}
+
+#submit:hover {
+  background: linear-gradient(rgba(55, 65, 242, 1), #c62d1f);
+  cursor: pointer;
+}
+.stsec {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  font-size: small;
+  font-weight: bold;
+  height: 30px;
+  background: linear-gradient(#c86056, rgb(50, 52, 96));
+  color: white;
+}
+#sidebar {
+  color: #fff;
+  font-weight:500;
+  text-decoration: underline;
+  height: 100%;
+  width: 160px;
+  position:absolute;
+  z-index: 1;
+  left: 10;
+  background: linear-gradient(rgb(104, 110, 193), #693b37);
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+#news li {
+  font-size: 200%;
+  background-color: #225a8e;
+  color: whitesmoke;
+}
+#news p {
+  font-size: 125%;
+}
+#news a {
+  text-decoration: none;
+}
+#news h1 {
+  background-color: darkblue;
+  color: #fff;
+  margin: 0%;
+  padding: 2%;
+}
+#sidebar button {
+  font-size: 15px;
+  font-family: Arial;
+  width: 150px;
+  height: 30px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #337bc4;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  text-shadow: 0px 1px 0px #528ecc;
+  background: linear-gradient(#79bbff, #378de5);
+  margin: 3% 0;
+}
+
+#sidebar button:hover {
+  cursor: pointer;
+  background: linear-gradient(#378de5, #79bbff);
+}
